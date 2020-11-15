@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[scripts]
+notebook = "jupyter notebook"
+
+[packages]
+notebook = "*"
+jupyter = "*"
+matplotlib = "*"
+numpy = "*"
+scipy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
